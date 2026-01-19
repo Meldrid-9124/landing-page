@@ -51,7 +51,6 @@ body {
 
 .hero-description {
     align-self: flex-start;
-    padding-left: 10%;
 }
 
 .hero-statement {
@@ -59,7 +58,6 @@ body {
     color: #F9FAF8;
     font-weight: 800;
     align-self: flex-start;
-    padding-left: 10%;
 }
 
 .login-button button {
@@ -71,5 +69,26 @@ body {
 }
 .login-button {
     align-self: flex-start;
-    padding-left: 10%;
+}   
+.header-image img {
+    width: 400px;
+    height: 270px;
+    object-fit: contain; 
+}
+.header-image {
+    padding-righT: 10%;
+}
+
+.header-mid {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    border: 5px solid blue;
+}
+
+.hero {
+    margin-left: 10%;
 }
