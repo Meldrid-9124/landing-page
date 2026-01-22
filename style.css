@@ -2,7 +2,7 @@ body {
     font-family: Tahoma;
     display: flex;
     justify-content: stretch;
-    flex-direction: column; 
+    flex-direction: column;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -92,10 +92,10 @@ body {
 
 .hero {
     margin-left: 10%;
+    width: 45%;
 }
 
 .content-container {
-    border: 5px solid yellow;
     display: flex;
     flex-direction: column;
 }
@@ -121,10 +121,11 @@ body {
     align-items: center;
     width: 220px;
 }
+
 .image img {
     width: 220px;
     height: 220px;
-    border: 4px solid #3882F6;
+    border: 5px solid #3882F6;
     border-radius: 25px;
     object-fit: cover;
 }
@@ -134,4 +135,65 @@ body {
     font-size: 18px;
     font-weight: bolder;
 
+}
+
+.quote-container {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: max-width;
+    height: 400px;
+    font-size: 36px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 0 20%;
+}
+
+.quote-author {
+    width: fit-content;
+    align-self: flex-end;
+    font-weight: 550;
+}
+
+.action-container {
+    margin: 3% 15% 0 15%;
+    height: 125px;
+    background-color: #3882F6;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.heading {
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+
+.action-text {
+    align-self: center;
+}
+
+.action-container .donate-button {
+    align-self: center;
+}
+
+.action-container button {
+    padding: 4px 30px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 24px;
+    border: 4px solid white;
+    border-radius: 8px;
+}
+
+.footer {
+    border: 5px solid yellow;
 }
